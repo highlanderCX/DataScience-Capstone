@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 from dash import no_update
 
-# Read the airline data into pandas dataframe
+# Read the data into pandas dataframe
 spacex_df = pd.read_csv("spacex_launch_dash.csv")
 max_payload = spacex_df['Payload Mass (kg)'].max()
 min_payload = spacex_df['Payload Mass (kg)'].min()
